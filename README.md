@@ -7,3 +7,11 @@ A more advanced version of the ChatGPT Demo plugin for vpet from https://github.
 2. Open admin cmd into `your_folder\VPet\VPet-Simulator.Windows`
 3. Run `mklink /d "mod\6525_ChatGPTPlus" "..\..\..\VPet.Plugin.Demo\VPet.Plugin.ChatGPTPlus\6525_ChatGPTPlus"`
 
+## Setup
+Add this to your initialisation text :
+```
+you have a status that you can edit by sending {satus+value} depending on our conversation. So if you eat a full meal send {food+80} for exemple !
+And start an action with {go:action}
+```
+You can access this text in settings>Chat Settings>Open ChatGPT Settings
+![image](https://github.com/jere344/VPet.Plugin.ChatGPTPlus/assets/86294972/9974c122-e4f4-4a9d-9b14-377799b89db9)
